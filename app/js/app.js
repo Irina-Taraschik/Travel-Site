@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const left = document.querySelector('#left');
 	const right = document.querySelector('#right');
 	const count = document.querySelector('.first-section__numbers-number');
+	const titleColor = '.first-section__slider-title';
 	
 	let el = 0;
 	function firstRender(params) {
@@ -47,6 +48,13 @@ document.addEventListener('DOMContentLoaded', () => {
 		else el = el + 1
 		changeSlide()
 	})
+
+
+
+
+
+
+
 	//form
 // 	const form = document.querySelector('.form');
 // 	const select = document.querySelector('.select');
