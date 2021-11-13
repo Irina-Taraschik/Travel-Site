@@ -4,7 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 	
-	const items = [...document.querySelectorAll('.first-section__background-picture')];
+	const items = [...document.querySelectorAll('.first-section__slider-img')];
 	const left = document.querySelector('#left');
 	const right = document.querySelector('#right');
 	const count = document.querySelector('.first-section__numbers-number');
